@@ -80,7 +80,7 @@ class _HomePageState extends State<HomePage> {
         context: context,
         builder: (context) {
           return AlertDialog(
-            title: Text('New band name:'),
+            title: const Text('New band name:'),
             content: TextField(
               controller: textController,
             ),
